@@ -6,12 +6,12 @@ Dashboard: 3 pages — Retail Sales · Geographic Intelligence · Sales Forecast
 Author: Akshaya Chilka · AI & DS, St. Martin's Engineering College '27
 
 
-📌 Project Overview
+📌 Project Overview:
 A complete, production-style analytics pipeline on a retail e-commerce dataset — from raw data ingestion and cleaning in Python, through 13 business-focused SQL queries, to a 3-page interactive Power BI dashboard covering sales intelligence, geographic analysis, and a 3-month revenue forecast with actionable business recommendations.
 Dataset Scale:
 MetricValueTotal Orders116,000Total Revenue₹80.52M (₹8,05,19,173.24)Average Order Value₹693.53Cities Covered3,831Date RangeMarch 2022 – June 2022Cancellation Rate10.04%Shipping Success Rate84.81%
 
-🗂️ Repository Structure
+🗂️ Repository Structure:
 ecommerce-sales-analysis/
 │
 ├── Data_Cleaning.ipynb              # Python data cleaning pipeline
@@ -112,10 +112,10 @@ Reduce cancellations through logistics optimisation
 Promote top-performing categories
 
 
-💡 Key Business Insights Across All 3 Pages
+💡 Key Business Insights Across All 3 Pages:
 InsightDataActionSet dominates revenue₹40M · ~50% of totalPrioritise inventory and promotionsBengaluru is #1 market₹7.6M · 11,095 orders · 29.26% shareIncrease marketing budget allocation10.04% cancellation rate12.4K orders lostInvestigate courier SLA and logistics gapsEasy Ship outperforms69.59% volume vs 30.41% Self ShipReduce Self Ship dependencyHyderabad: high volume, lower AOV9.1K orders · ₹5.9MUpsell opportunity in high-frequency, lower-spend marketStable 3-month forecastPower BI forecast CIPlan inventory for Jul–Sep 2022 based on trendTop 10 cities = majority of revenue49,893 orders · ₹3.43CrGeo-targeted campaigns for tier-2 cities
 
-🚀 How to Run
+🚀 How to Run:
 bash# Python
 pip install pandas jupyter
 jupyter notebook Data_Cleaning.ipynb
@@ -125,8 +125,8 @@ SOURCE e-commerce.sql;
 Open E-Commerce_Sales_DashBoard.pbix
 Refresh data source → point to E-commerce Sales Data.csv
 
-🛠️ Tech Stack
+🛠️ Tech Stack:
 ToolUsagePython 3 + PandasNull handling · median imputation · deduplication · EDAMySQL13 queries · window functions · statistical outlier detection · time-seriesMicrosoft Power BI3-page dashboard · DAX measures · Power BI forecast · smart narratives · cross-page slicers
 
-👩‍💻 About
+👩‍💻 About:
 Akshaya Chilka — AI & Data Science, St. Martin's Engineering College, Hyderabad
